@@ -16,7 +16,13 @@ public class StaticMethodDisc {
 		printHello();
 		m1();
 		m1();
-			
+		
+		StaticMethod2.methodOne();
+		
+		m1();
+		
+		StaticMethodDisc.m1();
+		
 	}
 	
 	public static void m1()
