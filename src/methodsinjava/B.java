@@ -6,5 +6,17 @@ public class B {
 	{
 		System.out.println("m3 method");
 	}
+	
+	
+	
+	
+	
+	public void m4()
+	{
+		
+		
+		
+		
+	}
 
 }
