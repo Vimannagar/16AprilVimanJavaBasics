@@ -1,5 +1,7 @@
 package basiccomponents;
 
+import categoriesofmethod.Test;
+
 public class FirstProgram {
 
 	
@@ -15,6 +17,9 @@ public class FirstProgram {
 	System.out.println("16 April vimannagar batch");
 	System.out.println("5th May 2022");
 	System.out.println("6th may");
+	
+	
+	Test.m10();
 	
 	
 	

@@ -18,6 +18,13 @@ public class WithReturnAndNoArgument {
 		
 		System.out.println(value);//DanielEder
 		
+		System.out.println("*********************************************");
+		
+		int rollvalue = rollGenerator();
+		
+		
+		actualRollNumber(rollvalue);
+		
 		
 		
 	}
@@ -47,6 +54,33 @@ public class WithReturnAndNoArgument {
 		
 		return team;
 	}
+	
+	
+	
+	public static int rollGenerator()
+	{
+		int value = 10;
+		
+		int rollnum = value +1;
+		
+		
+		return rollnum;
+		
+	}
+	
+	public static void actualRollNumber(int retvalue)
+	{
+		String actualnum= retvalue +"A Section";
+		
+		System.out.println(actualnum);
+	}
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
