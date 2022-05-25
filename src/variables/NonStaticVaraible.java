@@ -6,6 +6,8 @@ public class NonStaticVaraible {
 	
 	boolean b = false;
 	
+	int i = 50;
+	
 	public static void main(String[] args) {
 		NonStaticVaraible nsv = new NonStaticVaraible();
 		
@@ -18,7 +20,19 @@ public class NonStaticVaraible {
 	{
 		NonStaticVaraible nsv = new NonStaticVaraible();	
 		System.out.println(nsv.b);
+		
+		System.out.println(nsv.i);
+				
 	}
+	
+	public void m2()
+	{
+		System.out.println(i);
+	}
+	
+	
+	
+	
 	
 	
 
