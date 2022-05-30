@@ -21,11 +21,15 @@ public class ConditionalOperator2 {
 
 		// '>=' greater than or equal to operator
 
-		int l = 60;
+		int l = 80;
 
 		int m = 60;
 
 		boolean n = m >= l;
+		
+		boolean h = l>= m;
+		
+		System.out.println("H value is :"+h);//true
 
 		System.out.println(n);// true
 

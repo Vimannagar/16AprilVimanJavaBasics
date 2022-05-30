@@ -9,6 +9,7 @@ public class LogicalOperator {
 		
 		char c = 'a';
 		
+		
 		char d = 'a';
 		
 		int i = 50;
