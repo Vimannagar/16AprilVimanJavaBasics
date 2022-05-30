@@ -30,10 +30,14 @@ public class ConditionalOperator {
 		if(j==m)
 		{
 			System.out.println("if is executing");
+			
+			
+			
 		}
 		else
 		{
 			System.out.println("else is executing");
+		
 		}
 	}
 	
