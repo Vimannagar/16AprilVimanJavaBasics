@@ -34,6 +34,39 @@ public class LogicalOperator {
 	
 	
 	
+	// 2. OR operator
+	int z = 10;
+
+	int y = 20;
+
+	boolean g = z<y;
+	
+	boolean h = y>50;
+	
+	
+	boolean m = g || h;
+	
+	System.out.println(m);//true
+	
+	
+//	3. NOT operator
+	
+	boolean n = false;
+	
+	boolean o = !n;
+	
+	System.out.println("n value is "+o);
+	
+	if(!(z<y))
+	{
+		System.out.println("if is executing");
+	}
+	else
+	{
+		System.out.println("else is executing");
+	}
+	
+	
 	}
 	
 	
