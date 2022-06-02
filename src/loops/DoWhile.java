@@ -10,7 +10,7 @@ public class DoWhile {
 			System.out.println("inside do block");
 			j++;
 		}
-		while(i>j);
+		while(i<j);
 	}
 	
 	
