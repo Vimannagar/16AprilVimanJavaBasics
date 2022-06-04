@@ -16,7 +16,7 @@ public class ThisKeyword {
 		
 		System.out.println(i);//50
 		
-		System.out.println(this.i);
+		System.out.println(this.i);//20
 		
 		System.out.println(c);//h
 		

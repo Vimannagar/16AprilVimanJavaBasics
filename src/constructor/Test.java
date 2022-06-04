@@ -4,12 +4,24 @@ public class Test {
 	//constructor
 	public  Test()
 	{
-		System.out.println("constructor is running");
+		this(80);		
+		System.out.println("zero argument constructor");
+		
 	}
+	
+	
 	public  Test(int i)
+	{
+		this(45, "abc");
+		System.out.println("the value is "+i);
+		System.out.println("one argument constructor");
+	}
+	
+	public  Test(int i, String s)
 	{
 		System.out.println("one argument constructor");
 	}
+	
 	
 	
 	public static void m1()
@@ -37,6 +49,8 @@ public class Test {
 		
 //		calling of one argument constructor
 		Test t2 = new Test(20);
+		
+		Test t3 = new Test(78, "abc");
 		
 		
 	}
