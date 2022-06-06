@@ -3,7 +3,9 @@ package loops;
 public class ReverseANumber {
 	
 	public static void main(String[] args) {
-		int i = 12345;//54321
+		int number = 12345;
+		
+		int i = number;//54321
 		int reverse = 0;
 	
 		while(i!=0)
@@ -28,7 +30,14 @@ public class ReverseANumber {
 
 		
 		
-		
+		if(number == reverse)
+		{
+			System.out.println("Number is palindrome");
+		}
+		else
+		{
+			System.out.println("number is not palindrome");
+		}
 		
 		
 		
