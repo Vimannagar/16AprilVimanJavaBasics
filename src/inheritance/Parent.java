@@ -1,6 +1,10 @@
 package inheritance;
 
 public class Parent extends GrandParent{
+	static int parstatvariable = 40;
+	int cars = 2;
+	
+	int parentvariable = 50;
 	
 	public void home()
 	{

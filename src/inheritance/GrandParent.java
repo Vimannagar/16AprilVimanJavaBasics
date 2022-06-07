@@ -1,7 +1,10 @@
 package inheritance;
 
 public class GrandParent {
-	
+	static int grandstatvariable = 80;
+	int cars = 3;
+	int area = 5612;
+	int grandparentvariable = 100;
 	
 	public void farm()
 	{
