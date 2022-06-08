@@ -19,11 +19,18 @@ public class Overloading {
 	}
 	
 	
-	public static void m1(String s)
-	{
-		System.out.println("static method with one argument");
-	}
-	
+		public static void m1(String s)
+		{
+			System.out.println("static method with one argument");
+		}
+		
+		public static int m1(String d, String e)
+		{
+			System.out.println("static method with return type");
+			
+			return 80;
+		}
+		
 	
 	public static void main(String[] args) {
 		Overloading o = new Overloading();
@@ -33,6 +40,12 @@ public class Overloading {
 		o.m1(78, "abc");
 		
 		m1("def");
+		
+		A.main(args);
+		
+		A.main();
+		
+		A.main(60);
 	}
 
 
