@@ -28,6 +28,46 @@ public class AccessTest {
 		
 		c.m6();
 		
+		System.out.println("**************************************");		
+//		Accessing the public method from Class E
+		
+		E e = new E();
+		
+		e.m1();
+		
+//		Accessing the default method from E class
+		
+		e.m2();
+		
+//		Accessing the private method from E class	
+		
+//		E.m3();// we cannot access m3 outside the class as it is private
+		System.out.println("**************************************");	
+//	Accessing protected method from F class
+		
+		F f = new F();
+		
+		f.m1();
+		
+		f.m2();
+		
+		F.m3();
+		
+		System.out.println("*********************************************");
+		
+//		Accessing the public variable from A class
+		
+		System.out.println(a.i);
+		
+//		Accessing the default variable from A class
+		
+		System.out.println(A.s);
+		
+//		Accessing the protected variable from A class
+		
+		System.out.println(a.c);
+		
+		
 		
 		
 	}

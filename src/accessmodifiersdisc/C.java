@@ -1,6 +1,6 @@
 package accessmodifiersdisc;
 
- final class C {
+final public  class C {
 	
 
 	

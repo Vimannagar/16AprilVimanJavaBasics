@@ -31,6 +31,14 @@ public class Overloading {
 			return 80;
 		}
 		
+		
+	private	static int m1()
+		{
+			System.out.println("static method with return type");
+			
+			return 80;
+		}
+		
 	
 	public static void main(String[] args) {
 		Overloading o = new Overloading();
@@ -46,6 +54,8 @@ public class Overloading {
 		A.main();
 		
 		A.main(60);
+		
+		
 	}
 
 
