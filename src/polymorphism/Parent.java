@@ -45,5 +45,25 @@ public class Parent {
 		 System.out.println("m2 static method from Parent class");
 	 }
 	
+	 
+		 public static void m3()
+		 {
+			 System.out.println("m2 static method from Parent class");
+		 }
+		 
+		 void m4()
+			{
+				System.out.println("m4 method from parent class");
+			} 
+		 
+		public final void m5()
+			{
+				System.out.println("m4 method from parent class");
+			} 
+		
+		public final void m5(int i)
+		{
+			System.out.println("m4 method from parent class");
+		} 
 
 }

@@ -28,6 +28,19 @@ package polymorphism;
 			 System.out.println("m2 static method from Child class");
 		 }
 		
+		
+//		public  void m3()
+//		 {
+//			 System.out.println("m2 static method from Parent class");
+//		 }
+		
+		public void m4()
+			{
+				System.out.println("m4 method from Child class");
+			} 
+
+		
+		
 		public static void main(String[] args) {
 			
 			Child c = new Child();
@@ -61,7 +74,9 @@ package polymorphism;
 //			Child cc = new Parent(); -- This is invalid
 			
 			
-			pp.m2();
+			pp.m2();// parent class m2 method
+			
+			m2();// Child class
 			
 			
 			
