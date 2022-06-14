@@ -20,6 +20,22 @@ public class Server {
 		}
 	}
 	
+	public int setBalance(int Amount)
+	{
+		if(Amount <= customerbal)
+		{
+			customerbal = customerbal - Amount;
+			
+		}
+		else
+		{
+			System.out.println("Insufficient balance please the amount");
+		}
+		
+		return customerbal;
+		
+	}
+	
 
 	
 

@@ -1,15 +1,19 @@
-package encapsulation;
-
-
-
-public class ATMMachine {
+	package encapsulation;
 	
 	
-	public static void main(String[] args) {
+	
+	public class ATMMachine {
 		
-		Server s = new Server();
 		
-		s.getBalance(123);
-		
+		public static void main(String[] args) {
+			
+			Server s = new Server();
+			
+			s.getBalance(1234);
+			
+			s.setBalance(60000);
+			
+			s.getBalance(1234);
+			
+		}
 	}
-}
