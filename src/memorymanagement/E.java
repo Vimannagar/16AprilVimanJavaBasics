@@ -1,6 +1,6 @@
 package memorymanagement;
 
-public class E {
+public abstract class E {
 	A a;
 	
 	B b;
