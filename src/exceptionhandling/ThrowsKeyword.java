@@ -17,8 +17,10 @@ public class ThrowsKeyword {
 		Thread.sleep(5000);
 		
 		
+			
 		System.out.println("After sleep method");
 		
+		throw new ArithmeticException("This message is shown deliberately");
 		
 		
 	}
