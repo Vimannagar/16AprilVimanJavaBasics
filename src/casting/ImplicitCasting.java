@@ -18,6 +18,8 @@ public class ImplicitCasting {
 	System.out.println(d);
 	
 	
+	
+	
 		
 		
 	}
