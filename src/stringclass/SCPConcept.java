@@ -8,8 +8,7 @@ public class SCPConcept {
 		String ss = new String("abc");
 		
 		String ss1 = new String("def");
-		
-		
+				
 		String ss2 = new String("def");
 		
 		String s1 = "ghi";
@@ -29,10 +28,18 @@ public class SCPConcept {
 	
 	boolean ispointingsame1 = s4==ss;
 	
-	System.out.println(ispointingsame1);
+	System.out.println(ispointingsame1);//false
 		
+	
+	boolean iscontentequal = s4.equals(ss);
+	
+	System.out.println(iscontentequal);//true
 		
-		
+	
+	 boolean iscontequal = ss1.equals(ss2);// true
+	 
+	 System.out.println(iscontequal);
+//		== equals
 		
 	}
 }
