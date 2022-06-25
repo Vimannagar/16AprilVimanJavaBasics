@@ -96,7 +96,7 @@ public class MethodInStringClass {
 			
 //	toLowerCase()
 			
-		String s19 = "Pune";
+	String s19 = "Pune";
 		
 	String s20 = s19.toLowerCase();
 	
@@ -105,7 +105,66 @@ public class MethodInStringClass {
 	
 //	WAP to count number of occurance of a letter inside a String irrespective of their case- Ahemdabad
 		
-		
+//	toUpperCase()
+	
+	String s21 = "Haldwani";
+	
+	String s22 = s21.toUpperCase();
+	
+	System.out.println(s22);//HALDWANI
+	
+	
+//	trim()
+	
+	String s23 ="    Delhi     ";
+	
+	String s24 = s23.trim();
+	
+	System.out.println(s24);//Delhi
+	
+//	indexOf(char ch)
+	
+	String s25 = "Pennsylvania";
+	
+	int s26 = s25.indexOf('n');
+	
+	System.out.println(s26);//2
+	
+//	WAP to print the character and their index position inside a string.ex: a  0
+	
+//	indexOf(char ch)
+	
+int	s27 = s25.lastIndexOf('n');
+
+System.out.println(s27);//9
+	
+
+//contains(String s)
+
+String s28 = "Hyderabad";
+
+boolean s29 = s28.contains("der");
+
+System.out.println(s29);//true
+
+
+//startswith(String s)
+
+String s30 = "Singapore";
+
+boolean s31 = s30.startsWith("Sing");
+
+System.out.println(s31);
+
+//endswith
+ boolean s32 = s30.endsWith("re");
+ 
+ System.out.println(s32);
+ 
+ 
+ 
+ 
+	
 	}
 
 }
