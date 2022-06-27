@@ -162,6 +162,78 @@ System.out.println(s31);
  System.out.println(s32);
  
  
+// split(String s)
+ 
+ String s33 = "This is a String";
+ 
+ String [] s34 = s33.split(" ");
+ 
+ for(String s35:s34)
+ {
+	 System.out.println(s35);
+ }
+ 
+// WAP to reverse a String with respect to words only. example: This is a String ---> String a is This
+ 
+ 
+ 
+ String s36 = s33.replace("This is a ", "");
+ 
+ System.out.println(s36);//String
+ 
+ String s37 = "Spring";
+ 
+String s38 = s37.replaceAll("[A-Z]", "a");
+
+System.out.println(s38);//apring
+
+
+String s39 = s37.replaceAll("[^A-Z]", "!");
+
+System.out.println(s39);//S!!!!!
+
+
+String s40 = s37.replaceAll("[a-z]", "q");
+
+System.out.println(s40);//Sqqqqq
+
+
+String s41 = s37.replaceAll("[A-Za-z]", ".");
+
+System.out.println(s41);//......
+ 
+String s42 = "A&&cce123nt6,000576576u@re";
+
+String s43 = s42.replaceAll("[^A-Za-z]", "");
+
+System.out.println(s43);//Accenture
+
+String s44 = s42.replaceAll("[A-Za-z0-9]", "");
+
+System.out.println(s44);//&&@
+
+
+
+//Conversion from primitive to String :
+
+int i = 50;
+
+String s45 = String.valueOf(i);
+
+System.out.println(s45+5);//505
+
+boolean b = false;
+
+String s46 = String.valueOf(b);
+
+System.out.println(s46);//false
+
+
+//Conversion from String to Primitive :
+
+
+
+
  
  
 	
