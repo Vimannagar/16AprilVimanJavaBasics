@@ -233,6 +233,30 @@ System.out.println(s46);//false
 
 
 
+//int --> Integer
+//
+//char --> Character
+//
+//boolean --> Boolean
+
+// double --> Double
+
+String s47 = "10";
+
+int i1= Integer.parseInt(s47);
+
+System.out.println(i1+2);//12
+
+
+String s48 = "5656.55";
+
+double d = Double.parseDouble(s48);
+
+System.out.println(d+1);//5657.55
+
+
+
+
 
  
  
