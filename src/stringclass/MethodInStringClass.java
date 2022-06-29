@@ -255,6 +255,49 @@ double d = Double.parseDouble(s48);
 System.out.println(d+1);//5657.55
 
 
+//Conversion of String to character Array
+
+String s49 = "Rameshwaram";
+
+char[] s50 = s49.toCharArray();
+
+for(char cc :s50)
+{
+	System.out.println(cc);
+}
+//Output: 
+//R
+//a
+//m
+//e
+//s
+//h
+//w
+//a
+//r
+//a
+//m
+
+
+
+//isDigit(char c)
+
+char s51 = '0';
+
+boolean isnumber = Character.isDigit(s51);
+
+System.out.println(isnumber);//true
+
+//isAlphabetic(char c)
+
+char s52 = 'e';
+
+boolean isalphabet = Character.isAlphabetic(s52);
+
+System.out.println(isalphabet);// true
+
+
+// WAP to remove the number and alphabet from the string= abcd34gh67
 
 
 
