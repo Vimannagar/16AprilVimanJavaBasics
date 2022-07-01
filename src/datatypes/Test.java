@@ -10,6 +10,8 @@ public class Test {
 		
 	boolean k	= i<j;
 	
+	
+	
 	System.out.println(k);
 		
 	}
