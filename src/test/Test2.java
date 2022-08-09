@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	a[1]= 20; 
 	a[2]= 80; 
 	a[3]= 10; 
-	a[4]= 100; 
+	a[4]= 5; 
 	
 	
 	int temp;
@@ -30,6 +30,8 @@ public static void main(String[] args) {
 			}
 		}
 	}
+	System.out.println(a[a.length-2]);
+	
 	
 	for(int aa:a)
 	{
